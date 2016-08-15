@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gugoo.nothisboy.statusdemo.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/colorAccent"
+        android:text="go status"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnGoByCode"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/colorAccent"
+        android:text="go status by code"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnGoNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/colorAccent"
+        android:text="go status navigation"
+        android:textColor="@android:color/white" />
+</LinearLayout>
